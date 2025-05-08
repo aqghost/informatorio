@@ -11,6 +11,7 @@ for num in range(2, len(numeros)+1):
     for i in range(2, num):
         if num%i == 0:
             numPrimo = False
+            break
     if numPrimo == True:
         numeros_primos.append(num)
         
